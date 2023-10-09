@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  }
+
+header{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+.video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* right: 5%; */
+  width: 100%;
+}
+
+.video-malukuUtara{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.wrapper-destinasi{
+    max-height: 430px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 10%;
+}
+.wrapper-destinasi .item{
+    min-width: 200px;
+    height: 400px;
+    font-weight:   bold;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 20px 4px rgba(0, 0, 0, 0.2);
+    line-height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.wrapper-destinasi .item p{
+ 
+    color: white;
+ 
+}
+.wrapper-destinasi::-webkit-scrollbar{
+    width: 0;
+}
+#item1{
+    
+    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_gunung_ibu.jpg);
+   
+    margin-right: 50px;
+
+    
+}
+
+#item2{
+    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_pantai_sulamadaha.jpg);
+   
+    margin-right: 50px;
+}
+#item3{
+    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_danau_tolier_besar.jpg);
+    
+    margin-right: 50px;
+}
+#item4{
+    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_batu_angus_ternate.jpg);
+    
+    margin-right: 50px;
+}
+#item1:hover{
+  padding: 10px;
+  height: 410px;
+  transition: all 0.3s
+ 
+}
+#item2:hover{
+  padding: 10px;
+  height: 410px;
+  transition: all 0.3s;
+}
+#item3:hover{
+  padding: 10px;
+  height: 410px;
+  transition: all 0.3s;
+}
+#item4:hover{
+  padding: 10px;
+  height: 410px;
+  transition: all 0.3s;
+}
+.button{
+  
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  width: 120px;
+  line-height: 50px;
+  margin: 50px auto 0;
+  border-radius: 50px;
+  
+}
+.button:hover{
+  
+  background-color: #000000;
+color: gray;
+  
+}
+.text3{
+  text-decoration: none;
+  color: white;
+}
+.text3:hover{
+  
+  color: gray;
+}
+.txtlink{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.txtlink:hover{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: grey;
+    background-color: black;
+    
+}
+.card{
+    box-shadow: 0px 2px 3px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.text{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .text2{
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 8%;
+  }
+  .wrapper-foto{
+    width: 900px;
+    min-height: auto;
+    margin: 20px auto;
+  }
+  .wrapper-foto ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  .wrapper-foto ul::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .wrapper-foto ul li{
+    width: calc(30% - 5px);
+    margin: 30px 15px 0;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+  }
+  .wrapper-foto ul li:nth-child(1n + 4){
+    max-height: 0;
+    opacity: 0;
+    transition: 0.2s ease-in;
+  }
+  .wrapper-foto .btn-area{
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 900;
+    width: 180px;
+    line-height: 50px;
+    margin: 50px auto 0;
+    border-radius: 50px;
+    margin-bottom: 100px;
+  }
+  .wrapper-foto .btn-area .btn1{
+    display: none;
+  }
+  .wrapper-foto .btn-area .btn2:hover{
+    color: grey;
+    transition: all 0.3s;
+  }
+  .wrapper-foto .btn-area .btn1:hover{
+    color: grey;
+    transition: all 0.3s;
+  }
+
+  .wrapper-foto #btnBox{
+    display: none;
+  }
+  .wrapper-foto #btnBox:checked~ul li:nth-child(1n + 4){
+    max-height: 1000px;
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+  .wrapper-foto #btnBox:checked~.btn-area .btn1{
+    display: block;
+}
+
+.wrapper-foto #btnBox:checked~.btn-area .btn2{
+    display: none;
+}
+.container-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  margin-top: 40px;
+ 
+}
+.box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%; 
+  overflow: hidden;
+  margin-left: 40px;
+}
+.box::before{
+  content: '';
+  position: absolute;
+  inset: -10px 65px  ;
+  background: linear-gradient(315deg,#00ccff,#d400d4);
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+.box:hover::before{
+  inset: -20px 0px  ;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  inset: 6px  ;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+@keyframes animate {
+  0%{transform: rotate(0deg);
+
+  }
+ 100%{
+    transform: rotate(360deg);
+  }
+  
+}
+.content{
+  position: absolute;
+  inset: 15px;
+  border: 6px solid black;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.content p{
+font-size: 12px;
+padding-left: 10px;
+
+}
+.box:hover .content img{
+  opacity: 0;
+
+}
+@media screen and (max-width: 768px) {
+  .wrapper-foto{
+   width: 400px;
+  
+  }
+  .card{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .container-box{
+    width: calc(100% /2);
+  }
+}
