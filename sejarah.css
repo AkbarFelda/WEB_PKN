@@ -339,9 +339,11 @@
   }
   .themeText{
     padding-top: 250px;
-    text-align: center;
+    text-align: start;
     color: white;
-    margin-right: 300px;
+    margin-right: 250px;
+    margin-left: 40px;
+    
   }
   section{
 display: flex;
@@ -563,6 +565,38 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
       background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
     }
   }
+
+  .historyText{
+  
+  text-align: center;
+    margin-top: 40px;
+    background-color: var(--gunmetal);
+    color: white;
+    width: 500px;
+    padding:  30px;
+    margin-left: 27%;
+    border-radius: 20px;
+    
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .paragraft{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .imgSejarah{
+    margin-left: 100px;
+    width: 200px;
+  }
+  .card-heading{
+    text-align: center;
+    margin-top: 70px;
+    
+  }
   /**
   * responsive for larger than 580px screen
   */
@@ -605,7 +639,53 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     top: 30%;
   
   }
-  
+  .smallCircle{
+    margin-right: 140px;
+    width: 60px;
+    height: 60px;
+  }
+  .bigCircle{
+    top: 35%;
+    width: 160px;
+    right: 13%;
+    height: 160px;
+  }
+  .smallCircle2{
+    right: 1%;
+    width: 60px;
+    height: 60px;
+  }
+  .smallCircle3{
+    right: 8%;
+    width: 60px;
+    height: 60px;
+  }
+  .smallCircle4{
+    width: 60px;
+    height: 60px;
+    top: 70%;
+    right: 7%;
+  }
+  .smallCircle5{
+    width: 60px;
+    top: 70%;
+    right: 4%;
+    height: 60px;
+  }
+  .themeText{
+    margin-top: 0px;
+    margin-right: 120px;
+    text-align: start;
+    padding-top: 150px;
+  }
+  .historyText{
+    margin-left: 0px;
+  }
+  .imgSejarah{
+    margin-left: 50px;
+    width: 200px;
+  }
+
    
   }
   
