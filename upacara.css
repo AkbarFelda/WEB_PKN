@@ -347,255 +347,51 @@
   section{
 display: flex;
 height: 120vh;
-background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/background_sejarah.jpg);
+background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/tari_lalayon.jpg);
+background-repeat: no-repeat;
+background-size: cover;
   }
-
-  .smallCircle{
-
-    margin-right: 230px;
-    margin-top: 150px;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_gunung_ibu_verKecil.jpg);
-    
-    background-repeat: no-repeat;
-    animation: change1  20s infinite linear ; 
-   
-  }
-
-  @keyframes change1 {
-    0%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-    20%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-    40%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-    60%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verKecil.jpg);
-    }
-    80%{
-      background-image: url(img/maluku_utara_foto4.jpg);
-    }
-    90%{
-      background-image: url(img/maluku_utara_foto5.jpg);
-    }
-    100%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-  }
-  .smallCircle2{
-    top: 45%;
-   right: 5%;
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: change2  20s infinite linear;
-  }
-  @keyframes change2 {
-    0%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-    20%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-    40%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verKecil.jpg);
-    }
-    60%{
-      background-image: url(img/maluku_utara_foto4_verKecil.jpg);
-    }
-    80%{
-      background-image: url(img/maluku_utara_foto5_verKecil.jpg);
-    }
-    90%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-    100%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-  }
-  .smallCircle3{
-    margin-right: 200px;
-    top: 45%;
-    right: 17%;
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/maluku_utara_foto5_verKecil.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: change3  20s infinite linear;
-  }
-  @keyframes change3 {
-    0%{
-      background-image: url(img/maluku_utara_foto5_verKecil.jpg);
-    }
-    20%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-    40%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-    60%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-    80%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verKecil.jpg);
-    }
-    90%{
-      background-image: url(img/maluku_utara_foto4_verKecil.jpg);
-    }
-    100%{
-      background-image: url(img/maluku_utara_foto5_verKecil.jpg);
-    }
-  }
-  .bigCircle{
-    position: absolute;
-    margin-top: 40px;
-    right: 135px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_pantai_sulamadaha_verBesar.jpg);
-    animation: change4  20s infinite linear;
-    background-repeat: no-repeat;
-  }
-  @keyframes change4 {
-    0%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verBesar.jpg);
-    }
-    20%{
-      background-image: url(img/maluku_utara_foto4_verBesar.jpg);
-    }
-    40%{
-      background-image: url(img/maluku_utara_foto5_verBesar.jpg);
-    }
-    60%{
-      background-image: url(img/destinasi_gunung_ibu_verBesar.jpg);
-    }
-    80%{
-      background-image: url(img/destinasi_batu_angus_ternate_verBesar.jpg);
-    }
-    90%{
-      background-image: url(img/destinasi_danau_tolier_besar_verBesar.jpg);
-    }
-    100%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verBesar.jpg);
-    }
-  }
-  .smallCircle4{
-    margin-right: 200px;
-    top: 80%;
-    right: 21%;
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/maluku_utara_foto4_verKecil.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: change5  20s infinite linear;
-  }
-  @keyframes change5 {
-    0%{
-      background-image: url(img/maluku_utara_foto4_verKecil.jpg);
-      
-    }
-    20%{
-      background-image: url(img/maluku_utara_foto5_verKecil.jpg);
-    }
-    40%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-    60%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-    80%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-    90%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verKecil.jpg);
-    }
-    100%{
-      background-image: url(img/maluku_utara_foto4_verKecil.jpg);
-    }
-  }
-  .smallCircle5{
-    top: 80%;
-    right: 0%;
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: change6  20s infinite linear;
-  }
-  @keyframes change6 {
-    0%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-    20%{
-      background-image: url(img/destinasi_pantai_sulamadaha_verKecil.jpg);
-    }
-    40%{
-      background-image: url(img/maluku_utara_foto4_verKecil.jpg);
-    }
-    60%{
-      background-image: url(img/maluku_utara_foto5_verKecil.jpg);
-    }
-    80%{
-      background-image: url(img/destinasi_gunung_ibu_verKecil.jpg);
-    }
-    90%{
-      background-image: url(img/destinasi_batu_angus_ternate_verKecil.jpg);
-    }
-    100%{
-      background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
-    }
-  }
-
-  .historyText{
-  
-  text-align: center;
-    margin-top: 40px;
-    background-color: var(--gunmetal);
-    color: white;
-    width: 500px;
-    padding:  30px;
-    margin-left: 27%;
-    border-radius: 20px;
-    
-  }
-  .card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  .paragraft{
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .imgSejarah{
-    margin-left: 100px;
-    width: 200px;
-  }
-  .card-heading{
+  .section-text{
+    margin-top: 30px;
     text-align: center;
-    margin-top: 70px;
-    
-  }
+}
+
+main{
+  display: flex;
+  margin-left: 5%;
+}
+sub{
+  display: flex;
+  margin-left: 32.2%;
+}
+.card {
+  position: relative;
+  max-width: 300px; /* Adjust as needed */
+  overflow: hidden;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.cap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height:100%;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover .cap {
+  opacity: 1;/* Change opacity to 1 on hover */
+}
+
+
   /**
   * responsive for larger than 580px screen
   */
@@ -604,7 +400,17 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     /**
      * REUSED STYLE
      */
-  
+     main{
+      display: block;
+      margin-left: 15%;
+    }
+    sub{
+      display: block;
+      margin-left: 15%;
+    }
+  .cap{
+    opacity: 0;
+  }
     .container-navBar {
       max-width: 580px;
       padding-bottom: 30px;
@@ -638,75 +444,29 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     top: 30%;
   
   }
-  .smallCircle{
-    margin-right: 140px;
-    width: 60px;
-    height: 60px;
-  }
-  .bigCircle{
-    top: 35%;
-    width: 160px;
-    right: 13%;
-    height: 160px;
-  }
-  .smallCircle2{
-    right: 1%;
-    width: 60px;
-    height: 60px;
-  }
-  .smallCircle3{
-    right: 8%;
-    width: 60px;
-    height: 60px;
-  }
-  .smallCircle4{
-    width: 60px;
-    height: 60px;
-    top: 70%;
-    right: 7%;
-  }
-  .smallCircle5{
-    width: 60px;
-    top: 70%;
-    right: 4%;
-    height: 60px;
-  }
+
   .themeText{
     margin-top: 0px;
     margin-right: 120px;
     text-align: start;
     padding-top: 150px;
   }
-  .historyText{
-    margin-left: 0px;
-  }
-  .imgSejarah{
-    margin-left: 50px;
-    width: 200px;
-  }
 
-
-
-
-
-
-  
-
-
-
-
- 
-
-
-
+.main{
+  display: inline-block;
+  margin-left: 80px;
+}
+.sub{
+  display: inline-block;
+  margin-left: 80px;
+}
 
   }
   
   /**
    * responsive for larger than 768px screen
    */
-  
-  @media (min-width: 768px) {
+   @media (min-width: 768px) {
     /**
      * CUSTOM PROPERTY
      */
@@ -742,12 +502,83 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
   
     .container-navBar {
       max-width: 1050px;
-    } 
+    }
   
     /**
      * HEADER
      */
-
+  
+     
+  
+    .header.active .header-top {
+      position: unset;
+      background: unset;
+    }
+  
+    .nav-open-btn,
+    .navbar-top {
+      display: none;
+    }
+  
+    .header-bottom {
+      border-bottom: none;
+    }
+  
+    .header.active .header-bottom {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--white);
+      color: var(--onyx);
+      box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
+      transition: var(--transition);
+    }
+  
+    .header-bottom .container-navBar {
+      padding-block: 0;
+    }
+  
+    .header .navbar {
+      all: unset;
+    }
+  
+    .navbar-list {
+      border-top: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar-list li {
+      border-bottom: none;
+    }
+  
+    .navbar-link {
+      color: var(--white);
+      --fs-4: 16px;
+      font-weight: unset;
+      text-transform: uppercase;
+      padding: 20px 15px;
+    }
+  
+    .header.active .navbar-link {
+      color: var(--onyx);
+    }
+  
+    .header.active .navbar-link:is(:hover, :focus) {
+      color: var(--bright-navy-blue);
+    }
+  
+    .header.active .social-link {
+      color: var(--onyx);
+      border-color: hsla(0, 0%, 0%, 0.15);
+    }
+  
+    .overlay {
+      display: none;
+    }
+  
   }
   
   /**
@@ -776,4 +607,6 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     }
     
   }
+  
+  
   

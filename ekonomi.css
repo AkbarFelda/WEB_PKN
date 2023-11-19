@@ -297,6 +297,7 @@
   
   .nav-open-btn ion-icon {
   
+   left: 90%;
    font-size: 30px;
    color: white;
    top: 5%;
@@ -347,7 +348,9 @@
   section{
 display: flex;
 height: 120vh;
-background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/background_sejarah.jpg);
+background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/ekonomic.webp);
+background-repeat: no-repeat;
+background-size: cover;
   }
 
   .smallCircle{
@@ -564,38 +567,60 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
       background-image: url(img/destinasi_danau_tolier_besar_verKecil.jpg);
     }
   }
-
   .historyText{
   
-  text-align: center;
-    margin-top: 40px;
-    background-color: var(--gunmetal);
-    color: white;
-    width: 500px;
-    padding:  30px;
-    margin-left: 27%;
-    border-radius: 20px;
-    
-  }
-  .card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  .paragraft{
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .imgSejarah{
-    margin-left: 100px;
-    width: 200px;
-  }
-  .card-heading{
     text-align: center;
-    margin-top: 70px;
+      margin-top: 40px;
+      
+      color: var(--gunmetal);
+      width: 500px;
+      padding:  30px;
+      margin-left: 27%;
+      border-radius: 20px;
+      
+    }
+    .card1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .paragraft{
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .imgSejarah{
+        margin-left: 100px;
+        width: 200px;
+      }
+      
+      .ul-image2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex; justify-content: center; align-items: center; 
+       
+      }
+   
+    .firstimg2{
+        border-top-left-radius: 15px;
+      
+        border-bottom-left-radius: 15px ;
+      }
+     
+      .lastimg2{
+        border-top-right-radius: 15px;
+        
+        border-bottom-right-radius: 15px;
+      }
+         
     
-  }
+
   /**
   * responsive for larger than 580px screen
   */
@@ -684,22 +709,27 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     margin-left: 50px;
     width: 200px;
   }
-
-
-
-
-
+  .img{
+width: 100px;
+height: 100px;
+  }
+  .firstimg2{
+    width: 100px;
+    height: 100px;
+  }
+  .lastimg2{
+    width: 100px;
+    height: 100px;
+  }
+  
+.ul-image2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
   
 
-
-
-
- 
-
-
-
-
+   
   }
   
   /**
@@ -742,12 +772,83 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
   
     .container-navBar {
       max-width: 1050px;
-    } 
+    }
   
     /**
      * HEADER
      */
-
+  
+     
+  
+    .header.active .header-top {
+      position: unset;
+      background: unset;
+    }
+  
+    .nav-open-btn,
+    .navbar-top {
+      display: none;
+    }
+  
+    .header-bottom {
+      border-bottom: none;
+    }
+  
+    .header.active .header-bottom {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--white);
+      color: var(--onyx);
+      box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
+      transition: var(--transition);
+    }
+  
+    .header-bottom .container-navBar {
+      padding-block: 0;
+    }
+  
+    .header .navbar {
+      all: unset;
+    }
+  
+    .navbar-list {
+      border-top: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar-list li {
+      border-bottom: none;
+    }
+  
+    .navbar-link {
+      color: var(--white);
+      --fs-4: 16px;
+      font-weight: unset;
+      text-transform: uppercase;
+      padding: 20px 15px;
+    }
+  
+    .header.active .navbar-link {
+      color: var(--onyx);
+    }
+  
+    .header.active .navbar-link:is(:hover, :focus) {
+      color: var(--bright-navy-blue);
+    }
+  
+    .header.active .social-link {
+      color: var(--onyx);
+      border-color: hsla(0, 0%, 0%, 0.15);
+    }
+  
+    .overlay {
+      display: none;
+    }
+  
   }
   
   /**
