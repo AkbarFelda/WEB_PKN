@@ -685,21 +685,6 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     width: 200px;
   }
 
-
-
-
-
-
-  
-
-
-
-
- 
-
-
-
-
   }
   
   /**
@@ -732,23 +717,91 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
   }
   
   /**
-   * responsive for larger than 992px screen
-   */
-  
   @media (min-width: 992px) {
     /**
      * REUSED STYLE
      */
   
-    .container-navBar {
+     .container-navBar {
       max-width: 1050px;
-    } 
+    }
   
     /**
      * HEADER
      */
-
-  }
+  
+     
+  
+    .header.active .header-top {
+      position: unset;
+      background: unset;
+    }
+  
+    .nav-open-btn,
+    .navbar-top {
+      display: none;
+    }
+  
+    .header-bottom {
+      border-bottom: none;
+    }
+  
+    .header.active .header-bottom {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--white);
+      color: var(--onyx);
+      box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
+      transition: var(--transition);
+    }
+  
+    .header-bottom .container-navBar {
+      padding-block: 0;
+    }
+  
+    .header .navbar {
+      all: unset;
+    }
+  
+    .navbar-list {
+      border-top: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar-list li {
+      border-bottom: none;
+    }
+  
+    .navbar-link {
+      color: var(--white);
+      --fs-4: 16px;
+      font-weight: unset;
+      text-transform: uppercase;
+      padding: 20px 15px;
+    }
+  
+    .header.active .navbar-link {
+      color: var(--onyx);
+    }
+  
+    .header.active .navbar-link:is(:hover, :focus) {
+      color: var(--bright-navy-blue);
+    }
+  
+    .header.active .social-link {
+      color: var(--onyx);
+      border-color: hsla(0, 0%, 0%, 0.15);
+    }
+  
+    .overlay {
+      display: none;
+    }
+  
+  
   
   /**
    * responsive for larger than 1200px screen
@@ -776,4 +829,6 @@ background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),ur
     }
     
   }
+  
+  
   

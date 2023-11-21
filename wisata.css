@@ -226,6 +226,7 @@ body {
   width: 100%;
   padding-top: 61px;
   z-index: 4;
+  
 }
 
 .header-top {
@@ -234,7 +235,7 @@ body {
   left: 0;
   width: 100%;
   transition: var(--transition);
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-bottom: 1px solid hsla(331, 62%, 41%, 0.1);
   padding-block: 15px;
   z-index: 1;
 }
@@ -293,7 +294,7 @@ body {
 }
 
 .header-bottom {
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1)
 }
 
 .header-bottom .container {
@@ -408,11 +409,12 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-banner.jpg");
+  background-image:linear-gradient(rgba(50, 51, 56, 0.7),rgba(10, 10, 10, 0.7)),url(img/background_wisata2.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.7);
+  background-color: hsla(0, 24%, 17%, 0.7);
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
